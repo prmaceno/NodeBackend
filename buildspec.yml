@@ -40,20 +40,3 @@ phases:
 artifacts:
   files:
     - imagedefinition.json
-
-
-Try adding AmazonECS_FullAccess lazy approach but it should catch all I think?
-
-
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "codeconnections:UseConnection"
-            ],
-            "Resource": "arn:aws:codeconnections:us-east-1:968176627785:connection/391d5809-23cf-42cc-b3b0-1f536bf2d158"
-        }
-    ]
-}
