@@ -6,7 +6,7 @@ env:
     ACCOUNT_ID: 346067777770
     REPOSITORY_NAME: backend
     IMAGE_TAG: latest
-    CONTAINER_NAME: backend
+    CONTAINER_NAME: Backendcontainer
 
 phases:
   pre_build:
